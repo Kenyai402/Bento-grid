@@ -8,7 +8,7 @@
   font-style: normal;
 }
 body {
-  background-color: lab(84.63% 0.35 0.11 / 0.736);
+  background-color: lab(93.47% 0.34 0.11 / 0.736);
   color: hsl(233, 12%, 13%);
   line-height: 1.5;
   padding: 20px;
@@ -63,8 +63,22 @@ body {
 
   width: 60%;
 }
+
+.item3 img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 0.5rem;
+  margin-bottom: 10%;
+}
 .item7 img {
   margin-top: 60px;
+}
+.item8 img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  overflow: hidden;
 }
 
 .item1 {
@@ -119,30 +133,12 @@ body {
   align-items: center;
   width: 100%;
   min-height: 30%;
-  box-shadow: hsl(233, 12%, 13%);
-}
-.grid-item heading {
-  margin-bottom: 50px;
-}
-.grid-item h1 {
-  font-size: 2rem;
-  margin-bottom: 50px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .span-item7 {
   font-weight: 500;
   font-size: 70px;
-}
-
-.item3 img {
-  max-width: 100%;
-  height: auto;
-  border-radius: 0.5rem;
-  margin-bottom: 10%;
-}
-.item8 img {
- 
-  overflow: hidden;
 }
 
 @media (max-width: 1440px) {
@@ -170,18 +166,14 @@ body {
       "item7"
       "item8";
     margin: 50%;
-
-}
-
+  }
 
   .item8 {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-
   }
-
 }
 
 .attribution {
